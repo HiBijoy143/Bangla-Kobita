@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#DDF1F3"
+    android:layout_height="match_parent"
+    tools:context=".PoemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
+        android:layout_height="match_parent">
+        <TextView android:id="@+id/poemNameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Md. Hasan Imam Bijoy"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20sdp"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/poemId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CSE, DIU"
+                android:gravity="center"
+                android:textIsSelectable="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp"/>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".PoemActivity"></activity>
+        <activity android:name=".MBH" />
+        <activity android:name=".BM" />
+        <activity android:name=".MR" />
+        <activity android:name=".HH" />
+        <activity android:name=".SC" />
+        <activity android:name=".AA" />
+        <activity android:name=".OS" />
+        <activity android:name=".IG" />
+        <activity android:name=".KKN" />
+        <activity android:name=".KKB" />
+        <activity android:name=".RD" />
+        <activity android:name=".SSH" />
+        <activity android:name=".SUR" />
+        <activity android:name=".SV" />
+        <activity android:name=".SD" />
+        <activity android:name=".TN" />
+        <activity android:name=".SK" />
+        <activity android:name=".NG" />
+        <activity android:name=".SR" />
+        <activity android:name=".RMS" />
+        <activity android:name=".MMD" />
+        <activity android:name=".RNT" />
+        <activity android:name=".KAH" />
+        <activity android:name=".KNI" />
+        <activity android:name=".JD" />
+        <activity android:name=".JU" />
+        <activity android:name=".KR" />
+        <activity android:name=".AC" />
+        <activity android:name=".AH" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
